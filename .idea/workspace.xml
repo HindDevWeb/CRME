@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="854f1f38-a231-4812-a44e-48bc906d456e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/application/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/application/vendor/omnipay/common" />
+      <path value="$PROJECT_DIR$/application/vendor/omnipay/paypal" />
+      <path value="$PROJECT_DIR$/application/vendor/neitanod/forceutf8" />
+      <path value="$PROJECT_DIR$/application/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/application/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/application/vendor/moneyphp/money" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/guzzle6-adapter" />
+      <path value="$PROJECT_DIR$/application/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/application/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/discovery" />
+      <path value="$PROJECT_DIR$/application/vendor/instamojo/instamojo-php" />
+      <path value="$PROJECT_DIR$/application/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/httplug" />
+      <path value="$PROJECT_DIR$/application/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/promise" />
+      <path value="$PROJECT_DIR$/application/vendor/braintree/braintree_php" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/message" />
+      <path value="$PROJECT_DIR$/application/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/application/vendor/studio-42/elfinder" />
+      <path value="$PROJECT_DIR$/application/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/application/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/application/vendor/zbateson/mail-mime-parser" />
+      <path value="$PROJECT_DIR$/application/vendor/clue/stream-filter" />
+      <path value="$PROJECT_DIR$/application/vendor/nuovo/spreadsheet-reader" />
+      <path value="$PROJECT_DIR$/application/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/application/vendor/pusher/pusher-php-server" />
+      <path value="$PROJECT_DIR$/application/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/application/vendor/willdurand/email-reply-parser" />
+      <path value="$PROJECT_DIR$/application/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/application/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/application/vendor/backup-manager/backup-manager" />
+      <path value="$PROJECT_DIR$/application/vendor/2checkout/2checkout-php" />
+      <path value="$PROJECT_DIR$/application/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/application/vendor/composer" />
+      <path value="$PROJECT_DIR$/application/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/application/vendor/twilio/sdk" />
+      <path value="$PROJECT_DIR$/application/vendor/omnipay/mollie" />
+      <path value="$PROJECT_DIR$/application/vendor/omnipay/authorizenet" />
+      <path value="$PROJECT_DIR$/application/vendor/omnipay/braintree" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="perfex_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="perfex_crm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="perfex_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="perfex_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="perfex_crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="perfex_crm" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="854f1f38-a231-4812-a44e-48bc906d456e" name="Default Changelist" comment="" />
+      <created>1548692271500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548692271500</updated>
+      <workItem from="1548692273580" duration="3692000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3692000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="990" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18051118" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/invoices/bill_expenses.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4437" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/CRM_Model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/invoice_items/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/invoice_items/item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/invoices/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="6622" column="27" lean-forward="true" selection-start-line="6622" selection-start-column="27" selection-end-line="6622" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Invoices.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Invoice.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Invoice_items_model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Invoices_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Credit_notes_model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
