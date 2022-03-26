@@ -175,12 +175,12 @@
             "version": "v1.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/clue/php-stream-filter.git",
+                "url": "https://github.com/clue/stream-filter.git",
                 "reference": "d80fdee9b3a7e0d16fc330a22f41f3ad0eeb09d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clue/php-stream-filter/zipball/d80fdee9b3a7e0d16fc330a22f41f3ad0eeb09d0",
+                "url": "https://api.github.com/repos/clue/stream-filter/zipball/d80fdee9b3a7e0d16fc330a22f41f3ad0eeb09d0",
                 "reference": "d80fdee9b3a7e0d16fc330a22f41f3ad0eeb09d0",
                 "shasum": ""
             },
@@ -192,12 +192,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Clue\\StreamFilter\\": "src/"
-                },
                 "files": [
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Clue\\StreamFilter\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -220,6 +220,16 @@
                 "stream_filter_append",
                 "stream_filter_register"
             ],
+            "funding": [
+                {
+                    "url": "https://clue.engineering/support",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
+            ],
             "time": "2017-08-18T09:54:01+00:00"
         },
         {
@@ -238,10 +248,7 @@
             },
             "require": {
                 "ext-mbstring": "*",
-                "ext-gd":"*",
-                "ext-imap":"*",
                 "php": ">=5.5.9"
-                
             },
             "require-dev": {
                 "laravel/framework": "~5.1",
@@ -292,22 +299,20 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.7.1",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1"
+                "reference": "d60bcdc46978357759ecb13cb4b078da783f8faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
-                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/d60bcdc46978357759ecb13cb4b078da783f8faf",
+                "reference": "d60bcdc46978357759ecb13cb4b078da783f8faf",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "ext-gd":"*",
-                "ext-imap":"*",
                 "php": ">=5.3.0"
             },
             "require-dev": {
@@ -336,7 +341,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2018-03-08T01:11:30+00:00"
+            "time": "2019-03-17T17:19:46+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -430,12 +435,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -485,12 +490,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -913,15 +918,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/omnipay-authorizenet.git",
-                "reference": "c109d81bc2cdbee8705fe9e4f99ba55841485286"
+                "reference": "1b9c64ed74c556ae471eec40095abd4f5bb0edf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/omnipay-authorizenet/zipball/c109d81bc2cdbee8705fe9e4f99ba55841485286",
-                "reference": "c109d81bc2cdbee8705fe9e4f99ba55841485286",
+                "url": "https://api.github.com/repos/thephpleague/omnipay-authorizenet/zipball/1b9c64ed74c556ae471eec40095abd4f5bb0edf3",
+                "reference": "1b9c64ed74c556ae471eec40095abd4f5bb0edf3",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
                 "omnipay/common": "^3"
             },
             "require-dev": {
@@ -966,7 +974,7 @@
                 "pay",
                 "payment"
             ],
-            "time": "2018-05-21T22:15:58+00:00"
+            "time": "2020-10-25T23:23:11+00:00"
         },
         {
             "name": "omnipay/braintree",
@@ -1591,12 +1599,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Http\\Message\\": "src/"
-                },
                 "files": [
                     "src/filters.php"
-                ]
+                ],
+                "psr-4": {
+                    "Http\\Message\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1963,8 +1971,6 @@
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "ext-gd": "*",
-                "ext-imap":"*",
                 "php": ">=5.4.0"
             },
             "require-dev": {
@@ -2132,11 +2138,7 @@
                 "php": ">=5.3.3"
             },
             "suggest": {
-                "ext-mbstring": "For best performance",
-                "ext-gd": "For best performance",
-                "ext-imap": "For best performance"
-                
-                
+                "ext-mbstring": "For best performance"
             },
             "type": "library",
             "extra": {
@@ -2145,12 +2147,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2202,12 +2204,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php70\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php70\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -2457,8 +2459,6 @@
             },
             "require": {
                 "ext-mbstring": "*",
-                "ext-gd": "*",
-                "ext-imap":"*",
                 "php": ">=5.4"
             },
             "require-dev": {
@@ -2505,5 +2505,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
